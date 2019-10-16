@@ -6,7 +6,7 @@ from time import sleep
 
 
 class Field(object):
-    def __init__(self, width=10, height=10, date=1, field_map=[], rabbits=[], carrots=[], empty_rooms=[]):
+    def __init__(self, width=14, height=14, date=1, field_map=[], rabbits=[], carrots=[], empty_rooms=[]):
         self.__width = width
         self.__height = height
         self.date = date
